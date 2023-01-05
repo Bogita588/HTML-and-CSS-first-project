@@ -1,0 +1,148 @@
+ 
+ 
+ h1 {
+    color: grey;
+    font-weight: normal;
+    letter-spacing: .4em;
+    margin-bottom: 1em;
+     text-transform: Sentense case;
+     border-style: dotted;
+      border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+      border-width: 5px;
+     }
+     body {
+         
+         background:radial-gradient( red, blue);
+         opacity: 100%;
+        C:\Users\bogita\Documents\HMl\HTML Project\images\IMG_20200301_124147_5.jpg: url ("C:\Users\bogita\Documents\HMl\HTML Project\images\IMG_20200301_124147_5.jpg");
+      background-repeat: no-repeat;
+      background-position: right top;
+      margin-right: 200px;
+      background-attachment: scroll;
+         font-family : Comic sans MS;
+         color:white;
+         text-transform:Sentense case;
+     }
+     p {
+         color:white;
+         text-align:center;
+         
+     }
+     h1, h2, h3 {
+        
+         text-align: center;
+         Color: Orange;
+         outline-style:double;
+         outline-width: thick;
+         outline-color:green;
+         outline: thick ridge blue;
+         background-color:lightblue;
+         text-transform:sentense case;
+         
+          
+     }
+     
+     p.one {
+         
+      border-width: 10px 2px;
+      border-top-style: dotted;
+      border-right-style: solid;
+      border-bottom-style: dotted;
+      border-left-style: solid;
+      background-color: lightgrey;
+      text-shadow: 2px 2px 5px red;
+      font-style:italic;
+      color:white;
+     }
+     
+     title {
+         font-weight: large;
+     }
+         div {
+             border: 1px solid blue;
+            padding: 10px;
+             height: 50px;
+             width:50%
+             background-color:lightblue;
+             border-width: 10px 2px;
+             text-align:Justify;
+             margin:auto;
+            
+         }
+    img.b {
+        vertical-align: sub;
+    }
+    
+     ol {
+         background-color: #ff9999;
+         padding:20px;
+         margin-right:50%;
+     }
+     td {
+         text-align:center;
+         height: 10px;
+         vertical-align:bottom;
+     }
+     tr:hover {
+         background-color: coral;
+     }
+     div.relative {
+         overflow-x:hidden;
+         overflow-y=:scroll;
+        
+     }
+     img.c {
+         float:right;
+         margin-left:15px;
+         
+     }
+     p.clearfix::after {
+         content: "";
+      clear: both;
+      display: table;
+         color:blue;
+     }
+     a:hover {
+         color:blue;
+     }
+     p i:first-child {
+         color:blue;
+     }
+     p::first-letter {
+      color: #ff0000;
+      font-size: xx-large;
+    }
+    p::first-line {
+      color: #0000ff;
+      font-variant: small-caps;
+    }
+    p::selection {
+      color: red;
+      background: yellow;
+    }
+    ol.marker {
+        color: red
+        font-size: 23px;
+    }
+     a {
+      display: inline;
+      background-color: #dddddd;
+    }
+    a.active{
+        color:white;
+        background-color:green;
+    }
+    
+    a:hover:{.active){
+        background-color:pink;
+        color:white;
+    
+    .container {
+        display:flex;
+    }
+
+    #countLabel{
+display: block;
+text-align: center;
+font-size: medium;
+    }
